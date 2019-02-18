@@ -14,7 +14,7 @@
    Time O(n), Space O(n)
  */
 
-package com.nitin.algo;
+package src.main.java;
 
 public class TreeUtils {
 
