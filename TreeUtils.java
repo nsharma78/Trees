@@ -35,8 +35,6 @@ public class TreeUtils {
 		System.out.println("       " + root.left.data + "       " + root.right.data);
 		System.out.println("    " + root.left.left.data + "    " + root.left.right.data + "   " + root.right.left.data + "    " + root.right.right.data);
 		System.out.println("  " + root.left.left.left.data + "   " + root.left.left.right.data);
-
-
 	}
 
 	public static void printBST(Node root) {
@@ -45,7 +43,6 @@ public class TreeUtils {
 		System.out.println("       " + root.left.data + "       " + root.right.data);
 		System.out.println("    " + root.left.left.data + "    " + root.left.right.data + "   " + root.right.left.data + "    " + root.right.right.data);
 		System.out.println("          " + root.left.right.right.data + "         " + root.right.right.right.data);
-		
 	}
 
 	//sorted array to BST
