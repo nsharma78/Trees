@@ -13,9 +13,6 @@ MANIFEST.MF
 *.class
 *.jar
 *.zip
-*.xml
-/out/
-**/*.xml
 */target/*
 */temp_persist_config_*.xml
 */src/main/resources/buildinfo.properties
