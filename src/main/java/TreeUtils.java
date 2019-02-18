@@ -14,7 +14,7 @@
    Time O(n), Space O(n)
  */
 
-package src.main.java;
+package main.java;
 
 public class TreeUtils {
 
