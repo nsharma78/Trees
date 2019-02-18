@@ -18,6 +18,7 @@ package com.nitin.algo;
 
 public class TreeUtils {
 
+
 	public static void main(String[] args) {
 		int[] arr = {1,2,3,4,5,6,7,8,9};
 	
@@ -27,15 +28,15 @@ public class TreeUtils {
 		root = insertLevelOrder(arr, null, 0);
 		printLevelOrder(root);
 	}
-	
+
 	public static void printLevelOrder(Node root) {
 		System.out.println("==========LevelOrder Tree View==========");
 		System.out.println("           " + root.data);
 		System.out.println("       " + root.left.data + "       " + root.right.data);
 		System.out.println("    " + root.left.left.data + "    " + root.left.right.data + "   " + root.right.left.data + "    " + root.right.right.data);
 		System.out.println("  " + root.left.left.left.data + "   " + root.left.left.right.data);
-		
-		
+
+
 	}
 
 	public static void printBST(Node root) {
