@@ -30,7 +30,7 @@ public class LevelOrderTraversal {
         System.out.println(list.toString());
     }
 
-    private static List<List<Integer>> levelOrderTraversal(Node root) {
+    public static List<List<Integer>> levelOrderTraversal(Node root) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         Queue<Node> q = new LinkedList<>();
         if(root != null)
