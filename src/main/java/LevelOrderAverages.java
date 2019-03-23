@@ -22,7 +22,7 @@ public class LevelOrderAverages {
         System.out.println("========LevelOrderTraversalForInsertLevelOrder=========");
         Node root = TreeUtils.insertLevelOrder(arr, null, 0);
         List<Double> list = levelOrderAverages(root);
-        System.out.println(list.toString());
+        System.out.println(list);
     }
 
     public static List<Double> levelOrderAverages(Node root) {
