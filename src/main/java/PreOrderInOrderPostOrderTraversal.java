@@ -30,7 +30,7 @@ public class PreOrderInOrderPostOrderTraversal {
         postOrderTraversal(root);
     }
 
-    private static Node sortedArrayToBST(int[] arr, int start, int end) {
+    public static Node sortedArrayToBST(int[] arr, int start, int end) {
 
         // Base case
         if(start > end)
@@ -44,7 +44,7 @@ public class PreOrderInOrderPostOrderTraversal {
         return root;
     }
 
-    private static void preOrderTraversal(Node root) {
+    public static void preOrderTraversal(Node root) {
         if(root == null)
             return;
 
@@ -53,7 +53,7 @@ public class PreOrderInOrderPostOrderTraversal {
         preOrderTraversal(root.right);
     }
 
-    private static void inOrderTraversal(Node root) {
+    public static void inOrderTraversal(Node root) {
         if(root == null)
             return;
 
@@ -62,7 +62,7 @@ public class PreOrderInOrderPostOrderTraversal {
         inOrderTraversal(root.right);
     }
 
-    private static void postOrderTraversal(Node root) {
+    public static void postOrderTraversal(Node root) {
         if(root == null)
             return;
 
